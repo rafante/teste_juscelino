@@ -1,9 +1,9 @@
-name: Este script vai acontecer a cada push no development
+name: Este script vai acontecer a cada push no master
 
 on: 
   push:
     branches: 
-      - development
+      - master
 
 jobs:
   juscelino:

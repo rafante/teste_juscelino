@@ -1,0 +1,15 @@
+name: Este script vai acontecer a cada push no development
+
+on: 
+  push:
+    branches: 
+      - development
+
+jobs:
+  juscelino:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Tarefa 1
+      run: echo Juscelino é feio
